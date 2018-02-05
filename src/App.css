@@ -1,0 +1,206 @@
+div.page-wrapper {
+    width: 100%;
+    height: 100%;
+
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: space-evenly;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+div.page-wrapper h1 {
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+}
+
+label {
+    text-align: left;
+    padding: 5px 25px;
+}
+
+.input-check {
+  margin-right: 10px;
+}
+
+form#login-form, form.signup-form {
+    max-width: 700px;
+    color: black;
+    background: #fcfbfb;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 80%;
+    /* margin: 50px; */
+    text-align: center;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: -3px -1px 7px 0px #00000080;
+}
+
+div#login-footer {
+    background: #fa558d;
+    -webkit-box-shadow: 0px 3px 2px 0px #000000b8;
+    box-shadow: 0px 3px 2px 0px #000000b8;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+button.login-btn {
+  cursor: pointer;
+    margin: 20px;
+    background: #f1c40f;
+    color: white;
+    border: none;
+    padding: 18px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+input.login-input {
+    color: black;
+    background: none !important;
+    border: none;
+    border-bottom: 1px solid grey;
+    height: 50px;
+    margin: 20px;
+    font-size: 25px;
+
+}
+
+input.login-submit {
+    cursor: pointer;
+    margin: 20px;
+    background: #f1c40f;
+    color: white;
+    border: none;
+    padding: 18px;
+    font-size: 20px;
+    border-radius: 50px;
+  }
+  input.login-submit:hover {
+
+    background: #ffd738;
+    color: black;
+
+  }
+
+  input.login-submit:active {
+
+      background: #ffdf5f;
+      color: black;
+
+  }
+
+  #error-message {
+      color: #fa6c6c;
+      text-align: left;
+      padding: 0px 25px;
+  }
+
+  .button-div {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .prev-btn{
+    cursor: pointer;
+    margin: 20px;
+    background: #f1c40f;
+    color: white;
+    border: none;
+    padding: 18px;
+    font-size: 20px;
+    border-radius: 50px;
+    /* width: 100%; */
+  }
+
+header {
+    height: 10%;
+    background: #4A908A;
+    color: white;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: start;
+    align-items: center;
+    text-align: center;
+}
+
+#task-input-container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    height: 10%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #bbd7c1;
+}
+
+.task-input[type='text'] {
+    height: 100%;
+    width: 75%;
+    background: #ffffff;
+    border: none;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+}
+
+
+
+.task-input[type='submit'] {
+    height: 100%;
+    width: 25%;
+    background: #193D56;
+    border: none;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.task-input[type='submit']:hover {background: #193d56e6;}
+
+.task-input[type='submit']:active {background: #2c75a8;}
+
+#task-list-container{
+  height: 80%;
+}
+
+li.task-list-item {
+    padding-left: 20px;
+    border-bottom: 1px solid #9e9e9e38;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 50px;
+    box-sizing: border-box;
+}

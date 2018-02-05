@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,700');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body, html, #root, #App {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+    /* width: 100%; */
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+}
+
+#App {
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+button.remove-btn {
+    height: 100%;
+    width: 100px;
+    background: #F03434;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #fcfbfb inset;
+    -webkit-text-fill-color: black !important;
+}
+
+
+.gradient-text {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #eb9ed2), color-stop(0.15, #ee9dd1), color-stop(0.3, #22f), color-stop(0.45, #cba7db), color-stop(0.6, #4ac7fa),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
